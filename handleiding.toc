@@ -24,3 +24,4 @@
 \contentsline {subsection}{Quick Add}{5}
 \contentsline {section}{\numberline {2.2}Team Leads}{5}
 \contentsline {subsection}{Een Partner uitnodigen}{5}
+\contentsline {subsubsection}{Materiaal voor een partner}{5}
