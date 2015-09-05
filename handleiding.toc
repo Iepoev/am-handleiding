@@ -8,20 +8,22 @@
 \contentsline {section}{\numberline {1.4}Box Office}{3}
 \contentsline {section}{\numberline {1.5}Rental}{3}
 \contentsline {section}{\numberline {1.6}Reports}{3}
-\contentsline {section}{\numberline {1.7}Configuration}{3}
-\contentsline {subsection}{Users}{3}
-\contentsline {subsection}{Roles}{3}
-\contentsline {subsection}{Categories}{3}
-\contentsline {subsection}{Items}{3}
-\contentsline {subsection}{Materials}{3}
-\contentsline {subsection}{Zones}{3}
-\contentsline {subsection}{General}{3}
-\contentsline {subsection}{Integrations}{3}
-\contentsline {subsection}{Fields}{3}
-\contentsline {chapter}{\chapternumberline {2}Gebruiksaanwijzingen}{5}
-\contentsline {section}{\numberline {2.1}Box Office}{5}
-\contentsline {subsection}{Inchecken}{5}
-\contentsline {subsection}{Quick Add}{5}
-\contentsline {section}{\numberline {2.2}Team Leads}{5}
-\contentsline {subsection}{Een Partner uitnodigen}{5}
-\contentsline {subsubsection}{Materiaal voor een partner}{5}
+\contentsline {section}{\numberline {1.7}Configuration}{4}
+\contentsline {subsection}{Users}{4}
+\contentsline {subsection}{Roles}{4}
+\contentsline {subsection}{Categories}{4}
+\contentsline {subsection}{Items}{5}
+\contentsline {subsection}{Materials}{5}
+\contentsline {subsection}{Zones}{5}
+\contentsline {subsection}{General}{5}
+\contentsline {subsection}{Integrations}{5}
+\contentsline {subsection}{Fields}{5}
+\contentsline {chapter}{\chapternumberline {2}Gebruiksaanwijzingen}{7}
+\contentsline {section}{\numberline {2.1}Admin}{7}
+\contentsline {subsection}{Een Gebruiker toevoegen}{7}
+\contentsline {section}{\numberline {2.2}Box Office}{7}
+\contentsline {subsection}{Inchecken}{7}
+\contentsline {subsection}{Quick Add}{7}
+\contentsline {section}{\numberline {2.3}Team Leads}{7}
+\contentsline {subsection}{Een Partner uitnodigen}{7}
+\contentsline {subsubsection}{Materiaal voor een partner}{7}

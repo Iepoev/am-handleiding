@@ -27,6 +27,15 @@
 \clearpage
 
 \pagenumbering{arabic}
+%%\chapter{Introductie}
+%% wat uitleg over de handleiding zelf, 
+%% een verduidelijking van het verschil tussen een Persoon (person), een Partner (Partner) en een Gebruiker (User),
+%% een verduidelijking van het verschil tussen een Item en een Material
+
+
+%% Noot aan schrijver: in de handleiding worden Persoon, Partner en Gebruiker geschreven met hoofdletter als het gaat over een element in de database van het systeem
+
+
 \chapter{Interface}
 Om de gebruiker wegwijs te maken zullen we eerst in het kort alle elementen van het systeem overlopen. Deze zullen later in detail terugkeren waar nodig. Niet alle opties zijn voor alle gebruikers zichtbaar, dus als er bepaalde elementen onvindbaar zijn, is dat omdat de lezer er niet de correcte rechten voor heeft. Er wordt ten zeerste aangeraden om de onderdelen waar de lezer recht op heeft aandachtig te overlopen voor het lezen van de specifiekere gebruiksaanwijzingen,
 
@@ -51,7 +60,7 @@ Boven de tabel vindt men een filters en een zoekbalk, waarmee respectievelijk al
 \section{Partners}
 Een overzicht van de Partners ingeschreven in het systeem. Bij het openen ziet de lezer enkel de partners die door hem ingeschreven zijn, maar men kan alle partners zien door linksboven op 'Alle Partners' (\textsl{All Partners}) te klikken. Terugkeren naar het beginscherm kan door op 'Mijn Partners' (\textsl{My Partners}) te klikken.\\
 In de partnertabel ziet men de naam van de organisatie, de naam van de verantwoordelijke, of hij al dan niet ingelogd heeft, hoeveel van zijn tickets er verdeeld zijn, \textbf{WAT ZIJN UTILITIES??????}, de laatste aanpassing aan de partner, de status en de Gebruiker die deze Partner aangemaakt heeft.\\
-
+Op iedere Partner kan men een aantal acties uitvoeren, namelijk:
 \begin{itemize}
 	\item Toestaan (\textsl{Approve}), waarmee een Partner toegevoegd via een form  toegestaan wordt om in het systeem terecht te komen.
 	\item Afwijzen  (\textsl{Deny}), waarmee een Partner toegevoegd via een form  afgewezen wordt.
@@ -66,18 +75,40 @@ Als laatste UI-element is er het plus-icoontje rechtsbovenaan de tabel die toest
 Het is belangrijk om het Partnersysteem niet te verwarren met het Personensysteem. Een Partner is een individu of organisatie, die het recht heeft om een gegeven aantal tickets uit te delen aan collegas. Zo kan bijvoorbeeld een sponser een Partner worden, waardoor de sponser een aantal vip-tickets toegewezen krijgt die uitgedeeld kunnen worden. \textsl{Het uitdelen van deze tickets is dan ook de verantwoordelijkheid van de partner.}
 
 \subsection{Het Partner Service Center}
-
+Het Partner Service Systeem is dat wat de verantwoordelijke van een Partner te zien krijgt. Het bevat wat informatie over het systeem, contactgegevens van de Gebruiker die de Partner aan het systeem toegevoegd heeft.
+De belangrijkste functie van deze pagina is de 'voeg persoon toe'-knop, die een partnerverantwoordelijke toelaat om mensen uit te nodigen. Als de Partner recht heeft op materiaal, is ook de knop 'Alles over voorzieningen' te zien, waarmee de partnerverantwoordelijke specifieke hoeveelheiden van het beschikbare materiaal kan reserveren.
 
 \section{Box Office}
+lol idk
 
 \section{Rental}
+Het overzicht voor Materials uit te lenen en terug te nemen. De Gebruiker kan op de grote IN/OUT knoppen klikken om respectievelijk een Material terug te nemen of uit te lenen.
+\textbf{HOE WERKT FASTSCAN??????}
+\textbf{HOE WERKEN BARCODES VAN PERSONEN??????}
 
 \section{Reports}
+Geeft een overzicht van:
+\begin{itemize}
+	\item  hoeveel Personen van welke Categorie er op welke eventdagen toegang hebben.
+	\item  hoeveel Items er op welke eventdagen gereserveerd zijn.
+\end{itemize}
 
 \section{Configuration}
+Staat een Gebruiker toe om allerhande instellingen van het syteem aan te passen.
 \subsection{Users}
+Toont een tabel van Gebruikers, met respectievenlijk hun naam, emailadres, beschikbare UI-elementen en aanmaakdatum. 
+Op iedere Gebruiker kan men een aantal acties uitvoeren, namelijk:
+\begin{itemize}
+	\item Aanpassen (\textsl{Edit}), waarmee men naar het profielscherm van de Gebruiker kan gaan, om daar eventueel velden aan te passen.
+	\item Verwijderen (\textsl{Delete}), waarmee de Gebruiker uit het systeem verwijderd wordt.
+\end{itemize}
+Men kan op meerdere Gebruikers tegelijk deze acties uitvoeren door ze aan te vinken, en vervolgens in de rechterbovenhoek een optie te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.\\
+Verder kan men met behulp van de zoekbalk zoeken naar een specifieke gebruiker, en kan met met behulp van het plus-icoontje in de rechterbovenhoek een nieuwe gebruiker aanmaken.
 \subsection{Roles}
+Staat toe om een aantal voorgedefinieerde Rollen aan te maken die specifieke vergunningen in het systeem hebben, en die vervolgens toegewezen kunnen worden aan een Gebruiker.\\
+
 \subsection{Categories}
+Staat toe om een aantal voorgedefinieerde Categorien aan te maken die toegewezen kunnen worden aan een Persoon.
 \subsection{Items}
 \subsection{Materials}
 \subsection{Zones}
@@ -86,6 +117,9 @@ Het is belangrijk om het Partnersysteem niet te verwarren met het Personensystee
 \subsection{Fields}
 
 \chapter{Gebruiksaanwijzingen}
+
+\section{Admin}
+\subsection{Een Gebruiker toevoegen}
 
 \section{Box Office}
 \subsection{Inchecken}
