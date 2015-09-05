@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.5)  5 SEP 2015 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.5)  5 SEP 2015 16:28
 entering extended mode
 **handleiding.tex
 (handleiding.tex
@@ -435,46 +435,56 @@ Package nag Info: Command \hc@caption not defined, skipping amendment on input
 line 9.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 9.
- [1{C:/Users/jeroen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1
 
-]
+{C:/Users/jeroen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (handleiding.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
-) [2
+) [1
 
 ]
-Underfull \vbox (badness 3229) has occurred while \output is active []
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+ ("F:\Program Files (x86)\miktex\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+ [1
 
- [3
 
 ]
-[4]
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
+
+ []
+
+[2] [3] [4
+
+]
 No complaints by nag.
-[5
-
-]
+[5]
 \tf@toc=\write4
  (handleiding.aux) ) 
 Here is how much of TeX's memory you used:
- 5851 strings out of 493673
- 84324 string characters out of 3143148
- 219973 words of memory out of 3000000
- 9178 multiletter control sequences out of 15000+200000
- 8759 words of font info for 43 fonts, out of 3000000 for 9000
+ 5907 strings out of 493673
+ 84977 string characters out of 3143148
+ 221973 words of memory out of 3000000
+ 9199 multiletter control sequences out of 15000+200000
+ 9893 words of font info for 59 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 39i,10n,35p,477b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,10n,35p,607b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
 <F:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><F:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmb
 x12.pfb><F:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ><F:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><F:/Pr
 ogram Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmsl10.pfb><F:/Program 
-Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on handleiding.pdf (5 pages, 97625 bytes).
+Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files 
+(x86)/miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on handleiding.pdf (7 pages, 114751 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13313 words of extra memory for PDF output out of 14400 (max. 10000000)
 
