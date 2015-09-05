@@ -3,20 +3,20 @@
 \contentsline {chapter}{\chapternumberline {1}Interface}{3}
 \contentsline {section}{\numberline {1.1}Dashboard}{3}
 \contentsline {section}{\numberline {1.2}Persons}{3}
-\contentsline {section}{\numberline {1.3}Partners}{3}
-\contentsline {section}{\numberline {1.4}Box Office}{3}
-\contentsline {section}{\numberline {1.5}Rental}{3}
-\contentsline {section}{\numberline {1.6}Reports}{3}
-\contentsline {section}{\numberline {1.7}Configuration}{3}
-\contentsline {subsection}{Users}{3}
-\contentsline {subsection}{Roles}{3}
-\contentsline {subsection}{Categories}{3}
-\contentsline {subsection}{Items}{3}
-\contentsline {subsection}{Materials}{3}
-\contentsline {subsection}{Zones}{3}
-\contentsline {subsection}{General}{3}
-\contentsline {subsection}{Integrations}{3}
-\contentsline {subsection}{Fields}{3}
+\contentsline {section}{\numberline {1.3}Partners}{4}
+\contentsline {section}{\numberline {1.4}Box Office}{4}
+\contentsline {section}{\numberline {1.5}Rental}{4}
+\contentsline {section}{\numberline {1.6}Reports}{4}
+\contentsline {section}{\numberline {1.7}Configuration}{4}
+\contentsline {subsection}{Users}{4}
+\contentsline {subsection}{Roles}{4}
+\contentsline {subsection}{Categories}{4}
+\contentsline {subsection}{Items}{4}
+\contentsline {subsection}{Materials}{4}
+\contentsline {subsection}{Zones}{4}
+\contentsline {subsection}{General}{4}
+\contentsline {subsection}{Integrations}{4}
+\contentsline {subsection}{Fields}{4}
 \contentsline {chapter}{\chapternumberline {2}Gebruiksaanwijzingen}{5}
 \contentsline {section}{\numberline {2.1}Box Office}{5}
 \contentsline {subsection}{Inchecken}{5}
