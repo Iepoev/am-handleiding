@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.5)  8 SEP 2015 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.5)  8 SEP 2015 16:08
 entering extended mode
 **handleiding.tex
 (handleiding.tex
@@ -460,8 +460,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 
  []
 
@@ -473,11 +478,11 @@ No complaints by nag.
 \tf@toc=\write4
  (handleiding.aux) ) 
 Here is how much of TeX's memory you used:
- 5938 strings out of 493673
- 85225 string characters out of 3143148
+ 5977 strings out of 493673
+ 85664 string characters out of 3143148
  220973 words of memory out of 3000000
- 9200 multiletter control sequences out of 15000+200000
- 10923 words of font info for 74 fonts, out of 3000000 for 9000
+ 9237 multiletter control sequences out of 15000+200000
+ 10974 words of font info for 75 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  33i,10n,35p,607b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
 <F:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/
@@ -487,7 +492,7 @@ x12.pfb><F:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ogram Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmsl10.pfb><F:/Program 
 Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files 
 (x86)/miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on handleiding.pdf (9 pages, 126828 bytes).
+Output written on handleiding.pdf (9 pages, 127257 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

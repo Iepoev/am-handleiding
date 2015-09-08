@@ -7,20 +7,21 @@
 \contentsline {subsection}{Het Partner Service Center}{3}
 \contentsline {section}{\numberline {1.4}Box Office}{3}
 \contentsline {section}{\numberline {1.5}Rental}{3}
-\contentsline {section}{\numberline {1.6}Reports}{3}
+\contentsline {section}{\numberline {1.6}Reports}{4}
 \contentsline {section}{\numberline {1.7}Configuration}{4}
 \contentsline {subsection}{Users}{4}
 \contentsline {subsection}{Roles}{4}
 \contentsline {subsection}{Categories}{5}
 \contentsline {subsection}{Items \& Materials}{5}
 \contentsline {subsubsection}{Items}{5}
-\contentsline {subsubsection}{Materials}{6}
+\contentsline {subsubsection}{Materials}{5}
 \contentsline {subsection}{Zones}{6}
 \contentsline {subsection}{General}{6}
 \contentsline {subsection}{Integrations}{6}
 \contentsline {subsection}{Fields}{6}
 \contentsline {chapter}{\chapternumberline {2}Gebruiksaanwijzingen}{7}
 \contentsline {section}{\numberline {2.1}Admin}{7}
+\contentsline {subsection}{Het systeem instellen.}{7}
 \contentsline {subsection}{Een Gebruiker toevoegen}{7}
 \contentsline {subsection}{Een Rol toevoegen}{7}
 \contentsline {subsection}{Een Categorie toevoegen}{7}
