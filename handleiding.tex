@@ -83,6 +83,8 @@ lol idk
 
 \section{Rental}
 Het overzicht voor Materials uit te lenen en terug te nemen. De Gebruiker kan op de grote IN/OUT knoppen klikken om respectievelijk een Material terug te nemen of uit te lenen.
+\textbf{KUNNEN ENKEL MATERIALS UITGELEEND WORDEN (items hebben een 'rentable' checkbox)??????}
+\textbf{ZO NEE, HOE KUNNEN ITEMS UITGELEEND WORDEN??????}
 \textbf{HOE WERKT FASTSCAN??????}
 \textbf{HOE WERKEN BARCODES VAN PERSONEN??????}
 
@@ -104,13 +106,49 @@ Op iedere Gebruiker kan men een aantal acties uitvoeren, namelijk:
 \end{itemize}
 Men kan op meerdere Gebruikers tegelijk deze acties uitvoeren door ze aan te vinken, en vervolgens in de rechterbovenhoek een optie te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.\\
 Verder kan men met behulp van de zoekbalk zoeken naar een specifieke gebruiker, en kan met met behulp van het plus-icoontje in de rechterbovenhoek een nieuwe gebruiker aanmaken.
+
 \subsection{Roles}
 Staat toe om een aantal voorgedefinieerde Rollen aan te maken die specifieke vergunningen in het systeem hebben, en die vervolgens toegewezen kunnen worden aan een Gebruiker.\\
+langs de linkerkant staan de geconfigureerde Rollen, en langs de rechterkant kan men een nieuwe Rol aanmaken. 
+Op iedere Rol kan men een aantal acties uitvoeren, namelijk:
+\begin{itemize}
+	\item Aanpassen (\textsl{Edit}), waarmee de Gebruiker de machtigingen van een Rol kan aanpassen.
+	\item Verwijderen (\textsl{Delete}), waarmee de Rol uit het systeem verwijderd wordt.
+\end{itemize}
+Men kan op meerdere Rollen tegelijk deze acties uitvoeren door ze aan te vinken, en vervolgens in de rechterbovenhoek een optie te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.\\
 
 \subsection{Categories}
 Staat toe om een aantal voorgedefinieerde Categorien aan te maken die toegewezen kunnen worden aan een Persoon.
-\subsection{Items}
-\subsection{Materials}
+In de tabel ziet men een opsomming van de huidige Categorien, met hun naam, de naam die voor deze categorie gebruikt wordt in het Partner Service Centrum, en of al dan niet hun mailtekst, tickettekst en procedure ingevuld zijn in het systeem.
+Op iedere Categorie kan men een aantal acties uitvoeren, namelijk:
+\begin{itemize}
+	\item Aanpassen (\textsl{Edit}), waarmee de Gebruiker de machtigingen van een Rol kan aanpassen.
+	\item Verwijderen (\textsl{Delete}), waarmee de Rol uit het systeem verwijderd wordt.
+	\item Aanvraagformulier bekijken (\textsl{Visit Request Form}), waarmee de gebruiker het aanvraagformulier voor een ticket van die categorie te zien krijgt. Deze link opent in een nieuw tabblad.
+	\item Exporteer (\textsl{Export}), waarmee informatie over de categorie in de vorm van een Excel-bestand gedownload kan worden.
+\end{itemize}
+Men kan meerdere Categorien tegelijk verwijderen door ze aan te vinken, en vervolgens in de rechterbovenhoek de 'verwijderen'optie te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.
+
+\subsection{Items \& Materials}
+\subsubsection{Items}
+Een overzicht van de Voorwerpen (\textsl{Items}) in het systeem. In de tabel ziet men de naam, onder welke verzamelnaam het voorwerp zich bevindt, of het aan een Persoon of een Partner uitgeleend moet worden, een kolom met icoontjes die extra informatie toont en de aanmaakdatum van het Voorwerp.
+De kolom met icoontjes geeft een snel overzicht of een Voorwerp zichtbaar is in het Verslagmenu (\textsl{Reports}), of het een extra ticket nodig heeft, en of het Voorwerp enkel op specifieke dagen beschikbaar is.
+\textbf{HOE WERKT DATE DEPENDENCY??????}
+Op ieder Voorwerp kan men een aantal acties uitvoeren, namelijk:
+\begin{itemize}
+	\item Aanpassen (\textsl{Edit}), waarmee de Gebruiker de gegevens van een Voorwerp kan aanpassen.
+	\item Verwijderen (\textsl{Delete}), waarmee het Voorwerp uit het systeem verwijderd wordt.
+\end{itemize}
+
+Onderaan de pagina zijn ook de Voorwerpveld- en Voorwerpgroeptabellen zichtbaar. Dit zijn onderdelen van een Voorwerpbeschrijving en kunnen op dezelfde manier als een Voorwerp aangemaakt, aangepast of verwijderd worden.
+
+\subsubsection{Materials}
+
+Het is belangrijk om een Voorwerp niet te verwarren met Materiaal. Een Voorwerp heeft een stock, en er kunnen dus 1 of meerdere zelfde Voorwerpen uitgeleend worden aan verschillend Personen of Partners. Een Voorwerp kan uitleenbaar (\textsl{Rentable}) gemaakt worden, waarna ieder apart instantie van dit Voorwerp een barcode moet toegewezen worden in het Materiaalmenu, zodat ze via het Uitleenmenu (\textsl{Rental}) uitgeleend kan worden.
+
+Links op het scherm ziet men een overzicht van alle Materialen in het systeem met hun naam, barcode en Voorwerptype. Men kan deze aanpassen of verwijderen met behulp van het actieselectieveld (\textsl{Action})
+Rechts op het scherm kan de Gebruiker materiaal toevoegen door het Voorwerptype te selecteren, de naam in te geven en de barcode te scannen.
+
 \subsection{Zones}
 \subsection{General}
 \subsection{Integrations}
@@ -120,6 +158,13 @@ Staat toe om een aantal voorgedefinieerde Categorien aan te maken die toegewezen
 
 \section{Admin}
 \subsection{Een Gebruiker toevoegen}
+\subsection{Een Rol toevoegen}
+\subsection{Een Categorie toevoegen}
+\subsection{Een Voorwerp toevoegen}
+\subsection{Materiaal toevoegen}
+\subsection{Een Zone toevoegen}
+\subsection{Een Integratie toevoegen}
+\subsection{Een Veld toevoegen}
 
 \section{Box Office}
 \subsection{Inchecken}
@@ -127,8 +172,11 @@ Staat toe om een aantal voorgedefinieerde Categorien aan te maken die toegewezen
 
 \section{Team Leads}
 \subsection{Een Partner uitnodigen}
-\subsubsection{Materiaal voor een partner}
+\subsubsection{Materiaal voor een partner instellen}
 %%team lead wijst aan welk materiaal een partner mag gebruiken
 %%verantwoordelijke kan in het PSC een aanvraag indienen met een aantal voor enkel de toegewezen materialen.
+
+\section{Partners}
+\subsection{Utilities aanvragen.}
 
 \end{document}
