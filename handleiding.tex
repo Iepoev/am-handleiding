@@ -4,6 +4,13 @@
 \usepackage{microtype}
 \usepackage[dutch]{babel} 
 \usepackage{titling}
+\usepackage{graphicx}
+\usepackage{float}
+
+\graphicspath{{resources/}}
+\textwidth=15cm
+\setlength{\oddsidemargin}{12pt} 
+\setlength{\evensidemargin}{12pt}
 
 %opening
 \begin{document}
@@ -59,7 +66,7 @@ Boven de tabel vindt men een filters en een zoekbalk, waarmee respectievelijk al
 
 \section{Partners} \label{Partners}
 Een overzicht van de Partners ingeschreven in het systeem. Bij het openen ziet de lezer enkel de partners die door hem ingeschreven zijn, maar men kan alle partners zien door linksboven op 'Alle Partners' (\textsl{All Partners}) te klikken. Terugkeren naar het beginscherm kan door op 'Mijn Partners' (\textsl{My Partners}) te klikken.\\
-In de partnertabel ziet men de naam van de organisatie, de naam van de verantwoordelijke, of hij al dan niet ingelogd heeft, hoeveel van zijn tickets er verdeeld zijn, \textbf{WAT ZIJN UTILITIES??????}, de laatste aanpassing aan de partner, de status en de Gebruiker die deze Partner aangemaakt heeft.\\
+In de partnertabel ziet men de naam van de organisatie, de naam van de verantwoordelijke, of hij al dan niet ingelogd heeft, hoeveel van zijn tickets er verdeeld zijn, \textbf{WAT ZIJN UTILITIES?}, de laatste aanpassing aan de partner, de status en de Gebruiker die deze Partner aangemaakt heeft.\\
 Op iedere Partner kan men een aantal acties uitvoeren, namelijk:
 \begin{itemize}
 	\item Toestaan (\textsl{Approve}), waarmee een Partner toegevoegd via een form  toegestaan wordt om in het systeem terecht te komen.
@@ -79,14 +86,14 @@ Het Partner Service Systeem is dat wat de verantwoordelijke van een Partner te z
 De belangrijkste functie van deze pagina is de 'voeg persoon toe'-knop, die een partnerverantwoordelijke toelaat om mensen uit te nodigen. Als de Partner recht heeft op materiaal, is ook de knop 'Alles over voorzieningen' te zien, waarmee de partnerverantwoordelijke specifieke hoeveelheiden van het beschikbare materiaal kan reserveren.
 
 \section{Box Office} \label{Box Office}
-\textbf{HOE WERKT DIT??????}
+\textbf{HOE WERKT DIT?}
 
 \section{Rental} \label{Rental}
 Het overzicht voor Materials uit te lenen en terug te nemen. De Gebruiker kan op de grote IN/OUT knoppen klikken om respectievelijk een Material terug te nemen of uit te lenen. \\
-\textbf{KUNNEN ENKEL MATERIALS UITGELEEND WORDEN (items hebben een 'rentable' checkbox)??????} \\
-\textbf{ZO NEE, HOE KUNNEN ITEMS UITGELEEND WORDEN??????} \\
-\textbf{HOE WERKT FASTSCAN??????} \\
-\textbf{HOE WERKEN BARCODES VAN PERSONEN??????} \\
+\textbf{KUNNEN ENKEL MATERIALS UITGELEEND WORDEN (items hebben een 'rentable' checkbox)?} \\
+\textbf{ZO NEE, HOE KUNNEN ITEMS UITGELEEND WORDEN?} \\
+\textbf{HOE WERKT FASTSCAN?} \\
+\textbf{HOE WERKEN BARCODES VAN PERSONEN?} \\
 
 \section{Reports} \label{Reports}
 Geeft een overzicht van:
@@ -127,7 +134,7 @@ Men kan meerdere Categorien tegelijk verwijderen door ze aan te vinken, en vervo
 \subsubsection{Items} \label{Items}
 Een overzicht van de Voorwerpen (\textsl{Items}) in het systeem. In de tabel ziet men de naam, onder welke verzamelnaam het voorwerp zich bevindt, of het aan een Persoon of een Partner uitgeleend moet worden, een kolom met icoontjes die extra informatie toont en de aanmaakdatum van het Voorwerp.
 De kolom met icoontjes geeft een snel overzicht of een Voorwerp zichtbaar is in het Verslagmenu (\textsl{Reports}), of het een extra ticket nodig heeft, en of het Voorwerp enkel op specifieke dagen beschikbaar is.
-\textbf{HOE WERKT DATE DEPENDENCY??????}
+\textbf{HOE WERKT DATE DEPENDENCY?}
 Specifieke Voorwerpen kunnen verwijderd (\textsl{Delete}) of aangepast (\textsl{Edit}) worden met behulp van het actiemenu (\textsl{Action}).
 
 Onderaan de pagina zijn ook de Voorwerpveld- en Voorwerpgroeptabellen zichtbaar. Dit zijn onderdelen van een Voorwerpbeschrijving en kunnen op dezelfde manier als een Voorwerp aangemaakt, aangepast of verwijderd worden.
@@ -144,22 +151,53 @@ Links staat een overzicht van alle Zones op het terrein, rechts een klein menuut
 Bevat een hoop instellingen met betrekking tot het festival zelf (o.a. tickettemplates, tekstjes voor mails en het Partner Service Systeem). Meer info hierover is te vinden onder Sectie \ref{SetSystem}.
 
 \subsection{Integrations} \label{Integrations}
-\textbf{HOE WERKT DIT??????}
+\textbf{HOE WERKT DIT?}
 
 \subsection{Fields} \label{Fields}
-\textbf{HOE WERKT DIT??????}
+\textbf{HOE WERKT DIT?}
 
 \chapter{Gebruiksaanwijzingen} \label{Instructions}
 
 \section{Admin} \label{AdminInstr}
 \subsection{Het systeem instellen.} \label{SetSystem}
+Ga naar het Configuratie>Algemeen menu (zie \ref{General}). Hier ziet men de algemene instellingen van het systeem. Ieder veld met een sterretje naast is een veld dat verplicht ingevuld moet worden.
+\subsubsection{General}
+\subsubsection{Mails}
+Hier wordt de ticketmail ingesteld. Men kan hier respectievelijk de naam van de verzender, het adres van de verzender, het onderwerp van de mail, de tekst van de mailm de voetnote voor het onleesbaar zijn van de mail en de voetnote voor een link naar een online versie van de mail aanpassen.
+\subsubsection{Tickets}
+Hier wordt de achtergrondafbeelding van de printbare tickets ingesteld. De bedoeling is dat men op basis van het gegeven template een nederlandstalige en engelstalige versie van en ticket maakt en deze upload in het systeem. Eens dat deze afbeeldingen zich in het systeem bevinden kunnen ze opnieuw bekeken worden door op bestandsnaam te klikken.
+\subsubsection{Wristbands}
+\textbf{HOE WERKT DIT?}
+\subsubsection{PSC}
 \subsection{Een Gebruiker toevoegen} \label{AddUser}
 \subsection{Een Rol toevoegen} \label{SetRole}
 \subsection{Een Categorie toevoegen} \label{SetCategory}
 \subsection{Een Voorwerp toevoegen} \label{SetItem}
+Voor een Voorwerp toe te voegen aan het systeem, ga naar het Items (\ref{Items}) menu. \\
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{addItem_left}
+	\caption{een Voorwerp aanmaken}
+\end{figure}
+Vul de naam van een enkelvoudig item en het meervoud van deze naam in.
+\textbf{Vervolgens kan men optioneel nog het maximum aantal van dit Voorwerp invullen onder Maximum}, 
+Selecteer in het Target selectiemenu of dit item voor Partners of Personen is. \\
+Vervolgens zijn er een aantal aantikbare opties.
+\begin{itemize}
+	\item \textsl{Rentable} zorgt dat dit Voorwerp geindexeerd kan worden als Materiaal en bijgevolg uitgeleend kan worden in het Rentalmenu (\ref{Rental}), 
+	\item \textsl{Show in grid} zorgt dat het item zichtbaar is in het Reportsmenu (\ref{Reports}), 
+	\item \textsl{Date dependent} betekent dat om het Voorwerp te reserveren, er ook de dagen waarop het gereserveerd wordt geselecteerd moeten worden.
+	\item \textsl{Extra Ticket} zorgt dat bij het reserveren van het Voorwerp een extra ticket afgeprint moet worden (denk aan Parkeertickets). Als dit laatste aangevinkt wordt moet er ook een tweetalige tickettekst opgegeven worden.
+\end{itemize} 
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{addItem_right}
+	\caption{een Voorwerp aanmaken}
+\end{figure}
+Selecteer in het itemgroup selectiemenu onder welke itemgroup dit voorwerp valt. 
+Voeg onder Item-fields toe welke welk soort beschrijving de partners zullen kunnen of moeten opgeven in het Partner Service Centrum. 
+\textbf{Ten laatste kan men een .pdf uploaden om dingen te doen ofzo}
 \subsection{Materiaal toevoegen} \label{SetMaterial}
 \subsection{Een Zone toevoegen} \label{SetZone}
-\subsection{Een Integratie toevoegen} \label{SetIntgration}
+\subsection{Een Integratie toevoegen} \label{SetIntegration}
 \subsection{Een Veld toevoegen} \label{SetField}
 
 \section{Box Office} \label{BoxOfficeInstr}
@@ -168,6 +206,8 @@ Bevat een hoop instellingen met betrekking tot het festival zelf (o.a. tickettem
 
 \section{Team Leads} \label{TeamLeadInstr}
 \subsection{Een Partner uitnodigen} \label{AddPartner}
+Voor een Parter toe te voegen aan het systeem, ga naar het Partners (\ref{Partners}) menu. Linksbovenaan kan u op de plus-knop klikken om naar de aanmaakpagina te gaan.
+Op de aanmaakpagina
 \subsubsection{Materiaal voor een partner instellen} \label{AddPartnerMaterial}
 %%team lead wijst aan welk materiaal een partner mag gebruiken
 %%verantwoordelijke kan in het PSC een aanvraag indienen met een aantal voor enkel de toegewezen materialen.

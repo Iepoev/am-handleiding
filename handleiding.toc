@@ -7,34 +7,39 @@
 \contentsline {subsection}{Het Partner Service Center}{3}
 \contentsline {section}{\numberline {1.4}Box Office}{3}
 \contentsline {section}{\numberline {1.5}Rental}{3}
-\contentsline {section}{\numberline {1.6}Reports}{4}
-\contentsline {section}{\numberline {1.7}Configuration}{4}
-\contentsline {subsection}{Users}{4}
+\contentsline {section}{\numberline {1.6}Reports}{3}
+\contentsline {section}{\numberline {1.7}Configuration}{3}
+\contentsline {subsection}{Users}{3}
 \contentsline {subsection}{Roles}{4}
-\contentsline {subsection}{Categories}{5}
-\contentsline {subsection}{Items \& Materials}{5}
-\contentsline {subsubsection}{Items}{5}
+\contentsline {subsection}{Categories}{4}
+\contentsline {subsection}{Items \& Materials}{4}
+\contentsline {subsubsection}{Items}{4}
 \contentsline {subsubsection}{Materials}{5}
-\contentsline {subsection}{Zones}{6}
-\contentsline {subsection}{General}{6}
-\contentsline {subsection}{Integrations}{6}
-\contentsline {subsection}{Fields}{6}
+\contentsline {subsection}{Zones}{5}
+\contentsline {subsection}{General}{5}
+\contentsline {subsection}{Integrations}{5}
+\contentsline {subsection}{Fields}{5}
 \contentsline {chapter}{\chapternumberline {2}Gebruiksaanwijzingen}{7}
 \contentsline {section}{\numberline {2.1}Admin}{7}
 \contentsline {subsection}{Het systeem instellen.}{7}
-\contentsline {subsection}{Een Gebruiker toevoegen}{7}
-\contentsline {subsection}{Een Rol toevoegen}{7}
-\contentsline {subsection}{Een Categorie toevoegen}{7}
-\contentsline {subsection}{Een Voorwerp toevoegen}{7}
-\contentsline {subsection}{Materiaal toevoegen}{7}
-\contentsline {subsection}{Een Zone toevoegen}{7}
-\contentsline {subsection}{Een Integratie toevoegen}{7}
-\contentsline {subsection}{Een Veld toevoegen}{7}
-\contentsline {section}{\numberline {2.2}Box Office}{7}
-\contentsline {subsection}{Inchecken}{7}
-\contentsline {subsection}{Quick Add}{7}
-\contentsline {section}{\numberline {2.3}Team Leads}{7}
-\contentsline {subsection}{Een Partner uitnodigen}{7}
-\contentsline {subsubsection}{Materiaal voor een partner instellen}{7}
-\contentsline {section}{\numberline {2.4}Partners}{7}
-\contentsline {subsection}{Utilities aanvragen.}{7}
+\contentsline {subsubsection}{General}{7}
+\contentsline {subsubsection}{Mails}{7}
+\contentsline {subsubsection}{Tickets}{7}
+\contentsline {subsubsection}{Wristbands}{7}
+\contentsline {subsubsection}{PSC}{8}
+\contentsline {subsection}{Een Gebruiker toevoegen}{8}
+\contentsline {subsection}{Een Rol toevoegen}{8}
+\contentsline {subsection}{Een Categorie toevoegen}{8}
+\contentsline {subsection}{Een Voorwerp toevoegen}{8}
+\contentsline {subsection}{Materiaal toevoegen}{10}
+\contentsline {subsection}{Een Zone toevoegen}{10}
+\contentsline {subsection}{Een Integratie toevoegen}{10}
+\contentsline {subsection}{Een Veld toevoegen}{10}
+\contentsline {section}{\numberline {2.2}Box Office}{10}
+\contentsline {subsection}{Inchecken}{10}
+\contentsline {subsection}{Quick Add}{10}
+\contentsline {section}{\numberline {2.3}Team Leads}{10}
+\contentsline {subsection}{Een Partner uitnodigen}{10}
+\contentsline {subsubsection}{Materiaal voor een partner instellen}{10}
+\contentsline {section}{\numberline {2.4}Partners}{10}
+\contentsline {subsection}{Utilities aanvragen.}{10}
