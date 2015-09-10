@@ -40,6 +40,6 @@
 \contentsline {subsection}{Quick Add}{10}
 \contentsline {section}{\numberline {2.3}Team Leads}{10}
 \contentsline {subsection}{Een Partner uitnodigen}{10}
-\contentsline {subsubsection}{Materiaal voor een partner instellen}{11}
-\contentsline {section}{\numberline {2.4}Partners}{11}
-\contentsline {subsection}{Utilities aanvragen.}{11}
+\contentsline {subsubsection}{Materiaal voor een partner instellen}{12}
+\contentsline {section}{\numberline {2.4}Partners}{12}
+\contentsline {subsection}{Utilities aanvragen.}{12}
