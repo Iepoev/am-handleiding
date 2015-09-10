@@ -33,13 +33,13 @@
 \contentsline {subsection}{Een Voorwerp toevoegen}{8}
 \contentsline {subsection}{Materiaal toevoegen}{10}
 \contentsline {subsection}{Een Zone toevoegen}{10}
-\contentsline {subsection}{Een Integratie toevoegen}{10}
+\contentsline {subsection}{Integraties beheren}{10}
 \contentsline {subsection}{Een Veld toevoegen}{10}
-\contentsline {section}{\numberline {2.2}Box Office}{10}
-\contentsline {subsection}{Inchecken}{10}
-\contentsline {subsection}{Quick Add}{10}
-\contentsline {section}{\numberline {2.3}Team Leads}{10}
-\contentsline {subsection}{Een Partner uitnodigen}{10}
-\contentsline {subsubsection}{Materiaal voor een partner instellen}{12}
-\contentsline {section}{\numberline {2.4}Partners}{12}
-\contentsline {subsection}{Utilities aanvragen.}{12}
+\contentsline {section}{\numberline {2.2}Box Office}{11}
+\contentsline {subsection}{Inchecken}{11}
+\contentsline {subsection}{Quick Add}{11}
+\contentsline {section}{\numberline {2.3}Team Leads}{11}
+\contentsline {subsection}{Een Partner uitnodigen}{11}
+\contentsline {subsubsection}{Materiaal voor een partner instellen}{13}
+\contentsline {section}{\numberline {2.4}Partners}{13}
+\contentsline {subsection}{Utilities aanvragen.}{13}

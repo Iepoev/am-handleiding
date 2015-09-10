@@ -3,6 +3,7 @@
 
 \usepackage{microtype}
 \usepackage[dutch]{babel} 
+\usepackage[utf8]{inputenc}
 \usepackage{titling}
 \usepackage{graphicx}
 \usepackage{float}
@@ -44,7 +45,7 @@
 
 
 \chapter{Interface} \label{Interface}
-Om de gebruiker wegwijs te maken zullen we eerst in het kort alle elementen van het systeem overlopen. Deze zullen later in detail terugkeren waar nodig. Niet alle opties zijn voor alle gebruikers zichtbaar, dus als er bepaalde elementen onvindbaar zijn, is dat omdat de lezer er niet de correcte rechten voor heeft. Er wordt ten zeerste aangeraden om de onderdelen waar de lezer recht op heeft aandachtig te overlopen voor het lezen van de specifiekere gebruiksaanwijzingen,
+Om de gebruiker wegwijs te maken zullen we eerst in het kort alle elementen van het systeem overlopen. Deze zullen later in detail terugkeren waar nodig. Niet alle opties zijn voor alle gebruikers zichtbaar, dus als er bepaalde elementen onvindbaar zijn, is dat omdat de lezer er niet de correcte rechten voor heeft. Er wordt ten zeerste aangeraden om de onderdelen waar de lezer recht op heeft aandachtig te overlopen voor het lezen van de specifiekere gebruiksaanwijzingen.
 
 \section{Dashboard} \label{Dashboard}
 Het centraal overzicht. Bevat een historiek met het aantal personen toegevoegd aan het systeem per dag, plus het aantal verstuurde aanvraagformulieren (\textsl{Submitted Request Forms}) per dag. Dit overzicht kan manueel ververst worden door op het refresh-icoontje te klikken in de rechterbovenhoek. Exacte statistieken van een dag kunnen bekeken worden door met de muis over de grafiek te zweven.
@@ -55,7 +56,7 @@ Op iedere persoon kan men een aantal acties uitvoeren, namelijk:
 \begin{itemize}
 	\item Toestaan (\textsl{Approve}), waarmee een persoon toegevoegd via een form toegestaan wordt om in het systeem terecht te komen.
 	\item Afwijzen  (\textsl{Deny}), waarmee een persoon toegevoegd via een form afgewezen wordt.
-	\item Ticket versturen (\textsl{Send Ticket}), waarmee een mail verstuurd wordt naar het emailadres van de persoon met hun ticket en verdere informatie. Deze optie is enkel zichtbaar nadat de Persoon togestaan werdt.
+	\item Ticket versturen (\textsl{Send Ticket}), waarmee een mail verstuurd wordt naar het emailadres van de persoon met hun ticket en verdere informatie. Deze optie is enkel zichtbaar nadat de Persoon togestaan werd.
 	\item Aanpassen (\textsl{Edit}), waarmee de Gebruiker naar het profielscherm van de persoon kan gaan, om daar eventueel velden aan te passen.
 	\item Verwijderen (\textsl{Delete}), waarmee de persoon uit het systeem verwijderd wordt.
 \end{itemize}
@@ -66,10 +67,10 @@ Boven de tabel vindt men een filters en een zoekbalk, waarmee respectievelijk al
 
 \section{Partners} \label{Partners}
 Een overzicht van de Partners ingeschreven in het systeem. Bij het openen ziet de lezer enkel de partners die door hem ingeschreven zijn, maar men kan alle partners zien door linksboven op 'Alle Partners' (\textsl{All Partners}) te klikken. Terugkeren naar het beginscherm kan door op 'Mijn Partners' (\textsl{My Partners}) te klikken.\\
-In de partnertabel ziet men de naam van de organisatie, de naam van de verantwoordelijke, of hij al dan niet ingelogd heeft, hoeveel van zijn tickets er verdeeld zijn, \textbf{WAT ZIJN UTILITIES?}, de laatste aanpassing aan de partner, de status en de Gebruiker die deze Partner aangemaakt heeft.\\
+In de partnertabel ziet men de naam van de organisatie, de naam van de verantwoordelijke, of hij al dan niet ingelogd heeft, hoeveel van zijn tickets er verdeeld zijn, welk materiaal de Partner aanvraagt, de laatste aanpassing aan de Partner, de status en de Gebruiker die deze Partner aangemaakt heeft.\\
 Op iedere Partner kan men een aantal acties uitvoeren, namelijk:
 \begin{itemize}
-	\item Toestaan (\textsl{Approve}), waarmee een Partner toegevoegd via een form  toegestaan wordt om in het systeem terecht te komen.
+	\item Toestaan (\textsl{Approve}), waarmee een Partner toegevoegd via een form toegestaan wordt om in het systeem terecht te komen.
 	\item Afwijzen  (\textsl{Deny}), waarmee een Partner toegevoegd via een form  afgewezen wordt.
 	\item ga naar Partner Service Center  (\textsl{Visit PSC}), waarmee de Gebruiker naar het Partner Service Center (PSC) van deze Partner gestuurd wordt. Deze link opent in een nieuw tabblad. Deze optie is enkel zichtbaar nadat de Persoon toegestaan werdt.
 	\item verstuur Loginmail  (\textsl{Send Login}), waarmee een mail verstuurd wordt naar het emailadres van Partnerverantwoordelijke met een link naar hun PSC en verdere informatie. Deze optie is enkel zichtbaar nadat de Persoon toegestaan werdt.
@@ -79,7 +80,7 @@ Op iedere Partner kan men een aantal acties uitvoeren, namelijk:
 Men kan op meerdere Partners tegelijk deze acties uitvoeren door ze aan te vinken, en vervolgens in de rechterbovenhoek een optie te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.\\
 Als laatste UI-element is er het plus-icoontje rechtsbovenaan de tabel die toestaat om een nieuwe partner aan te maken.
 
-Het is belangrijk om het Partnersysteem niet te verwarren met het Personensysteem. Een Partner is een individu of organisatie, die het recht heeft om een gegeven aantal tickets uit te delen aan collegas. Zo kan bijvoorbeeld een sponser een Partner worden, waardoor de sponser een aantal vip-tickets toegewezen krijgt die uitgedeeld kunnen worden. \textsl{Het uitdelen van deze tickets is dan ook de verantwoordelijkheid van de partner.}
+Het is belangrijk om het Partnersysteem niet te verwarren met het Personensysteem. Een Partner is een individu of organisatie, die het recht heeft om een gegeven aantal tickets uit te delen aan collegas. Zo kan bijvoorbeeld een sponsor een Partner worden, waardoor de sponsor een aantal vip-tickets toegewezen krijgt die uitgedeeld kunnen worden. \textsl{Het uitdelen van deze tickets is dan ook de verantwoordelijkheid van de partner.}
 
 \subsection{Het Partner Service Center} \label{PSC}
 Het Partner Service Systeem is dat wat de verantwoordelijke van een Partner te zien krijgt. Het bevat wat informatie over het systeem, contactgegevens van de Gebruiker die de Partner aan het systeem toegevoegd heeft.
@@ -121,21 +122,19 @@ Specifieke Rollen kunnen verwijderd (\textsl{Delete}) of aangepast (\textsl{Edit
 Men kan meerdere Rollen tegelijk verwijderen door ze aan te vinken, en vervolgens in de rechterbovenhoek 'verwijderen' te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.\\
 
 \subsection{Categories} \label{Categories}
-Staat toe om een aantal voorgedefinieerde Categorien aan te maken die toegewezen kunnen worden aan een Persoon.
+Staat toe om een aantal voorgedefinieerde Categorieën aan te maken die toegewezen kunnen worden aan een Persoon.
 In de tabel ziet men een opsomming van de huidige Categorien, met hun naam, de naam die voor deze categorie gebruikt wordt in het Partner Service Centrum, en of al dan niet hun mailtekst, tickettekst en procedure ingevuld zijn in het systeem.
 Op iedere Categorie kan men naast Aanpassen (\textsl{Edit}) en Verwijderen (\textsl{Delete}) ook nog een aantal acties uitvoeren, namelijk:
 \begin{itemize}
 	\item Aanvraagformulier bekijken (\textsl{Visit Request Form}), waarmee de gebruiker het aanvraagformulier voor een ticket van die categorie te zien krijgt. Deze link opent in een nieuw tabblad.
-	\item Exporteer (\textsl{Export}), waarmee informatie over de categorie in de vorm van een Excel-bestand gedownload kan worden.
+	\item Exporteer (\textsl{Export}), waarmee informatie over de gebruikers van die categorie in de vorm van een Excel-bestand gedownload kan worden.
 \end{itemize}
-Men kan meerdere Categorien tegelijk verwijderen door ze aan te vinken, en vervolgens in de rechterbovenhoek de 'verwijderen'optie te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.
+Men kan meerdere Categorieën tegelijk verwijderen door ze aan te vinken, en vervolgens in de rechterbovenhoek de `verwijderen' optie te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.
 
 \subsection{Items \& Materials} \label{ItAndMats}
 \subsubsection{Items} \label{Items}
 Een overzicht van de Voorwerpen (\textsl{Items}) in het systeem. In de tabel ziet men de naam, onder welke verzamelnaam het voorwerp zich bevindt, of het aan een Persoon of een Partner uitgeleend moet worden, een kolom met icoontjes die extra informatie toont en de aanmaakdatum van het Voorwerp.
-De kolom met icoontjes geeft een snel overzicht of een Voorwerp zichtbaar is in het Verslagmenu (\textsl{Reports}), of het een extra ticket nodig heeft, en of het Voorwerp enkel op specifieke dagen beschikbaar is.
-\textbf{HOE WERKT DATE DEPENDENCY?}
-Specifieke Voorwerpen kunnen verwijderd (\textsl{Delete}) of aangepast (\textsl{Edit}) worden met behulp van het actiemenu (\textsl{Action}).
+De kolom met icoontjes geeft een snel overzicht of een Voorwerp zichtbaar is in het Verslagmenu (\textsl{Reports}), of het een extra ticket nodig heeft, en of het Voorwerp enkel op specifieke dagen beschikbaar is. Specifieke Voorwerpen kunnen verwijderd (\textsl{Delete}) of aangepast (\textsl{Edit}) worden met behulp van het actiemenu (\textsl{Action}).
 
 Onderaan de pagina zijn ook de Voorwerpveld- en Voorwerpgroeptabellen zichtbaar. Dit zijn onderdelen van een Voorwerpbeschrijving en kunnen op dezelfde manier als een Voorwerp aangemaakt, aangepast of verwijderd worden.
 
@@ -145,7 +144,7 @@ Het is belangrijk om een Voorwerp niet te verwarren met Materiaal. Een Voorwerp 
 Links op het scherm ziet men een overzicht van alle Materialen in het systeem met hun naam, barcode en Voorwerptype. Men kan deze aanpassen of verwijderen met behulp van het actieselectieveld (\textsl{Action})
 Rechts op het scherm kan de Gebruiker materiaal toevoegen door het Voorwerptype te selecteren, de naam in te geven en de barcode te scannen.
 \subsection{Zones} \label{Zones}
-Links staat een overzicht van alle Zones op het terrein, rechts een klein menuutje waar nieuwe zones mee aangemaak kunen worden. Hier kunnen weer Zones aangemaak of aangepast worden, per stuk of in groep, met behulp van de Actie- en Groepactieknoppen
+Links staat een overzicht van alle Zones op het terrein, rechts een klein menuutje waar nieuwe zones mee aangemaak kunen worden. Hier kunnen weer Zones aangemaakt of aangepast worden, per stuk of in groep, met behulp van de Actie- en Groepactieknoppen.
 
 \subsection{General} \label{General}
 Bevat een hoop instellingen met betrekking tot het festival zelf (o.a. tickettemplates, tekstjes voor mails en het Partner Service Systeem). Meer info hierover is te vinden onder Sectie \ref{SetSystem}.
@@ -154,18 +153,19 @@ Bevat een hoop instellingen met betrekking tot het festival zelf (o.a. tickettem
 \textbf{HOE WERKT DIT?}
 
 \subsection{Fields} \label{Fields}
-\textbf{HOE WERKT DIT?}
+Hier kan men extra velden maken die dan ingevuld kunnen worden bij het aanmaken of aanpassen van een Person.
 
 \chapter{Gebruiksaanwijzingen} \label{Instructions}
 
 \section{Admin} \label{AdminInstr}
 \subsection{Het systeem instellen.} \label{SetSystem}
-Ga naar het Configuratie>Algemeen menu (zie \ref{General}). Hier ziet men de algemene instellingen van het systeem. Ieder veld met een sterretje naast is een veld dat verplicht ingevuld moet worden.
+Ga naar het Configuratie$\rightarrow$Algemeen menu (zie \ref{General}). Hier ziet men de algemene instellingen van het systeem. Ieder veld met een sterretje naast is een veld dat verplicht ingevuld moet worden.
 \subsubsection{General}
+Hier staat er basisinformatie van het evenement.
 \subsubsection{Mails}
 Hier wordt de ticketmail ingesteld. Men kan hier respectievelijk de naam van de verzender, het adres van de verzender, het onderwerp van de mail, de tekst van de mailm de voetnote voor het onleesbaar zijn van de mail en de voetnote voor een link naar een online versie van de mail aanpassen.
 \subsubsection{Tickets}
-Hier wordt de achtergrondafbeelding van de printbare tickets ingesteld. De bedoeling is dat men op basis van het gegeven template een nederlandstalige en engelstalige versie van en ticket maakt en deze upload in het systeem. Eens dat deze afbeeldingen zich in het systeem bevinden kunnen ze opnieuw bekeken worden door op bestandsnaam te klikken.
+Hier wordt de achtergrondafbeelding van de printbare tickets ingesteld. De bedoeling is dat men op basis van het gegeven template een nederlandstalige en engelstalige versie van en ticket maakt en deze upload in het systeem. Eens dat deze afbeeldingen zich in het systeem bevinden kunnen ze opnieuw bekeken worden door op de bestandsnaam te klikken.
 \subsubsection{Wristbands}
 \textbf{HOE WERKT DIT?}
 \subsubsection{PSC}
@@ -183,7 +183,7 @@ Vul de naam van een enkelvoudig item en het meervoud van deze naam in.
 Selecteer in het Target selectiemenu of dit item voor Partners of Personen is. \\
 Vervolgens zijn er een aantal aantikbare opties.
 \begin{itemize}
-	\item \textsl{Rentable} zorgt dat dit Voorwerp geindexeerd kan worden als Materiaal en bijgevolg uitgeleend kan worden in het Rentalmenu (\ref{Rental}), 
+	\item \textsl{Rentable} zorgt dat dit Voorwerp geïndexeerd kan worden als Materiaal en bijgevolg uitgeleend kan worden in het Rentalmenu (\ref{Rental}), 
 	\item \textsl{Show in grid} zorgt dat het item zichtbaar is in het Reportsmenu (\ref{Reports}), 
 	\item \textsl{Date dependent} betekent dat om het Voorwerp te reserveren, er ook de dagen waarop het gereserveerd wordt geselecteerd moeten worden.
 	\item \textsl{Extra Ticket} zorgt dat bij het reserveren van het Voorwerp een extra ticket afgeprint moet worden (denk aan Parkeertickets). Als dit laatste aangevinkt wordt moet er ook een tweetalige tickettekst opgegeven worden.
@@ -206,8 +206,11 @@ Vervolgens moet men een unieke identificerende naam invoeren (zoals itemnaam\_1)
 Als deze velden ingevuld zijn kan met op de Saveknop klikken om het Materiaal toe te voegen aan het systeem.
 
 \subsection{Een Zone toevoegen} \label{SetZone}
-\subsection{Een Integratie toevoegen} \label{SetIntegration}
+In het Zonemenu kan er rechts een nieuwe zone aangemaakt worden. Deze heeft een naam en een symbool.
+\subsection{Integraties beheren} \label{SetIntegration}
+Het integratiemenu wordt gebruikt om integraties met het access-management systeem te beheren. De enige integraties huidig beschikbaar zijn Ticketmatic, en de integratie met de planningstool.
 \subsection{Een Veld toevoegen} \label{SetField}
+Een veld toevoegen gebeurt in het ``Fields'' menu aan de rechterkant.
 
 \section{Box Office} \label{BoxOfficeInstr}
 \subsection{Inchecken} \label{BOCheckIn}
