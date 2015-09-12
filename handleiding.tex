@@ -87,14 +87,12 @@ Het Partner Service Systeem is dat wat de verantwoordelijke van een Partner te z
 De belangrijkste functie van deze pagina is de 'voeg persoon toe'-knop, die een partnerverantwoordelijke toelaat om mensen uit te nodigen. Als de Partner recht heeft op materiaal, is ook de knop 'Alles over voorzieningen' te zien, waarmee de partnerverantwoordelijke specifieke hoeveelheiden van het beschikbare materiaal kan reserveren.
 
 \section{Box Office} \label{Box Office}
-\textbf{HOE WERKT DIT?}
+Het scherm voor tickets in te scannen en de bijhorende polsbandjes af te printen. De Gebruiker kan ofwel de barcode op het ticket inscannen of de Persoon opzoeken in het systeem.
+Moest de Persoon niet in het systeem zitten, kan een Gebruiker met de correcte rechten een Persoon toevoegen via ofwel de \textsl{Quick Add} of de \textsl{Add Person} knop.
 
 \section{Rental} \label{Rental}
 Het overzicht voor Materials uit te lenen en terug te nemen. De Gebruiker kan op de grote IN/OUT knoppen klikken om respectievelijk een Material terug te nemen of uit te lenen. \\
-\textbf{KUNNEN ENKEL MATERIALS UITGELEEND WORDEN (items hebben een 'rentable' checkbox)?} \\
-\textbf{ZO NEE, HOE KUNNEN ITEMS UITGELEEND WORDEN?} \\
-\textbf{HOE WERKT FASTSCAN?} \\
-\textbf{HOE WERKEN BARCODES VAN PERSONEN?} \\
+Het Fastscan veld laat toe om het systeem zelf te laten opzoeken of het Materiaal al uitgeleend is. Als dat het geval is, zal het Materiaal automatisch ingeleverd worden. Zoniet zal het Materiaal automatisch uitgeleend worden.
 
 \section{Reports} \label{Reports}
 Geeft een overzicht van:
@@ -131,14 +129,13 @@ Op iedere Categorie kan men naast Aanpassen (\textsl{Edit}) en Verwijderen (\tex
 \end{itemize}
 Men kan meerdere Categorieën tegelijk verwijderen door ze aan te vinken, en vervolgens in de rechterbovenhoek de `verwijderen' optie te selecteren uit het Groepacties  (\textsl{Group Actions}) selectiemenu.
 
-\subsection{Items \& Materials} \label{ItAndMats}
-\subsubsection{Items} \label{Items}
+\subsection{Items} \label{Items}
 Een overzicht van de Voorwerpen (\textsl{Items}) in het systeem. In de tabel ziet men de naam, onder welke verzamelnaam het voorwerp zich bevindt, of het aan een Persoon of een Partner uitgeleend moet worden, een kolom met icoontjes die extra informatie toont en de aanmaakdatum van het Voorwerp.
 De kolom met icoontjes geeft een snel overzicht of een Voorwerp zichtbaar is in het Verslagmenu (\textsl{Reports}), of het een extra ticket nodig heeft, en of het Voorwerp enkel op specifieke dagen beschikbaar is. Specifieke Voorwerpen kunnen verwijderd (\textsl{Delete}) of aangepast (\textsl{Edit}) worden met behulp van het actiemenu (\textsl{Action}).
 
 Onderaan de pagina zijn ook de Voorwerpveld- en Voorwerpgroeptabellen zichtbaar. Dit zijn onderdelen van een Voorwerpbeschrijving en kunnen op dezelfde manier als een Voorwerp aangemaakt, aangepast of verwijderd worden.
 
-\subsubsection{Materials} \label{Materials}
+\subsection{Materials} \label{Materials}
 Het is belangrijk om een Voorwerp niet te verwarren met Materiaal. Een Voorwerp heeft een stock, en er kunnen dus 1 of meerdere zelfde Voorwerpen uitgeleend worden aan verschillend Personen of Partners. Een Voorwerp kan uitleenbaar (\textsl{Rentable}) gemaakt worden, waarna ieder apart instantie van dit Voorwerp een barcode moet toegewezen worden in het Materiaalmenu, zodat ze via het Uitleenmenu (\textsl{Rental}) uitgeleend kan worden.
 
 Links op het scherm ziet men een overzicht van alle Materialen in het systeem met hun naam, barcode en Voorwerptype. Men kan deze aanpassen of verwijderen met behulp van het actieselectieveld (\textsl{Action})
@@ -150,7 +147,7 @@ Links staat een overzicht van alle Zones op het terrein, rechts een klein menuut
 Bevat een hoop instellingen met betrekking tot het festival zelf (o.a. tickettemplates, tekstjes voor mails en het Partner Service Systeem). Meer info hierover is te vinden onder Sectie \ref{SetSystem}.
 
 \subsection{Integrations} \label{Integrations}
-\textbf{HOE WERKT DIT?}
+Hier kan men de ingestelde Integraties (zoals een planningstool) bezichtigen.
 
 \subsection{Fields} \label{Fields}
 Hier kan men extra velden maken die dan ingevuld kunnen worden bij het aanmaken of aanpassen van een Person.
@@ -163,11 +160,9 @@ Ga naar het Configuratie$\rightarrow$Algemeen menu (zie \ref{General}). Hier zie
 \subsubsection{General}
 Hier staat er basisinformatie van het evenement.
 \subsubsection{Mails}
-Hier wordt de ticketmail ingesteld. Men kan hier respectievelijk de naam van de verzender, het adres van de verzender, het onderwerp van de mail, de tekst van de mailm de voetnote voor het onleesbaar zijn van de mail en de voetnote voor een link naar een online versie van de mail aanpassen.
+Hier wordt de ticketmail ingesteld. Men kan hier respectievelijk de naam van de verzender, het adres van de verzender, het onderwerp van de mail, de tekst van de mail, de voetnote voor het onleesbaar zijn van de mail en de voetnote voor een link naar een online versie van de mail aanpassen.
 \subsubsection{Tickets}
 Hier wordt de achtergrondafbeelding van de printbare tickets ingesteld. De bedoeling is dat men op basis van het gegeven template een nederlandstalige en engelstalige versie van en ticket maakt en deze upload in het systeem. Eens dat deze afbeeldingen zich in het systeem bevinden kunnen ze opnieuw bekeken worden door op de bestandsnaam te klikken.
-\subsubsection{Wristbands}
-\textbf{HOE WERKT DIT?}
 \subsubsection{PSC}
 \subsection{Een Gebruiker toevoegen} \label{AddUser}
 \subsection{Een Rol toevoegen} \label{SetRole}
@@ -179,22 +174,31 @@ Voor een Voorwerp toe te voegen aan het systeem, ga naar het Items (\ref{Items})
 	\caption{een Voorwerp aanmaken}
 \end{figure}
 Vul de naam van een enkelvoudig item en het meervoud van deze naam in.
-\textbf{Vervolgens kan men optioneel nog het maximum aantal van dit Voorwerp invullen onder Maximum}, 
+Vervolgens kan men optioneel nog het maximum aantal van dit Voorwerp invullen onder Maximum,
 Selecteer in het Target selectiemenu of dit item voor Partners of Personen is. \\
 Vervolgens zijn er een aantal aantikbare opties.
 \begin{itemize}
 	\item \textsl{Rentable} zorgt dat dit Voorwerp geïndexeerd kan worden als Materiaal en bijgevolg uitgeleend kan worden in het Rentalmenu (\ref{Rental}), 
 	\item \textsl{Show in grid} zorgt dat het item zichtbaar is in het Reportsmenu (\ref{Reports}), 
-	\item \textsl{Date dependent} betekent dat om het Voorwerp te reserveren, er ook de dagen waarop het gereserveerd wordt geselecteerd moeten worden.
+	\item \textsl{Date dependent} betekent dat het Voorwerp per dag gereserveerd moet worden.
 	\item \textsl{Extra Ticket} zorgt dat bij het reserveren van het Voorwerp een extra ticket afgeprint moet worden (denk aan Parkeertickets). Als dit laatste aangevinkt wordt moet er ook een tweetalige tickettekst opgegeven worden.
 \end{itemize} 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{addItem_right}
 	\caption{een Voorwerp aanmaken}
+	\label{fig:itemfield}
 \end{figure}
 Selecteer in het itemgroup selectiemenu onder welke itemgroup dit voorwerp valt. 
-Voeg onder Item-fields toe welke welk soort beschrijving de partners zullen kunnen of moeten opgeven in het Partner Service Centrum. 
-\textbf{Ten laatste kan men een .pdf uploaden om dingen te doen ofzo}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{itemfield}
+	\caption{een itemfield aanmaken}
+\end{figure}
+Voeg onder Item-fields toe welke welk soort extra informatie de Partner of Persoon moet opgeven bij het reserveren. Een bestaand Itemfield kan opgezocht worden door de naam in te tikken, een nieuw Itemfield aanmaken kan men door op het plus-icoontje te klikken en de relevante informatie in te vullen. In afbeelding \ref{fig:itemfield} wordt een itemfield met de naam 'Dit is een itemfield' aangemaakt, waarvan verplicht een checkbox aangetikt moet worden.
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{itemfield_result}
+	\caption{Wat er gebeurt als een Persoon een Voorwerp met voorgaand Itemfield aanvraagt.}
+\end{figure}
+Ten laatste kan men een .pdf uploaden die samen met het ticket van de Persoon opgestuurd zal worden als deze Persoon dit item gereserveerd heeft. Mogelijke toepassingen zijn een grondplan bij het reserveren van locatie-afhankelijke Voorwerpen.
 \subsection{Materiaal toevoegen} \label{SetMaterial}
 Voor een Materiaal toe te voegen aan het systeem, ga naar het Materials (\ref{Materials}) menu. \\
 \begin{figure}[H]

@@ -12,9 +12,8 @@
 \contentsline {subsection}{Users}{3}
 \contentsline {subsection}{Roles}{4}
 \contentsline {subsection}{Categories}{4}
-\contentsline {subsection}{Items \& Materials}{4}
-\contentsline {subsubsection}{Items}{4}
-\contentsline {subsubsection}{Materials}{5}
+\contentsline {subsection}{Items}{4}
+\contentsline {subsection}{Materials}{5}
 \contentsline {subsection}{Zones}{5}
 \contentsline {subsection}{General}{5}
 \contentsline {subsection}{Integrations}{5}
@@ -25,20 +24,19 @@
 \contentsline {subsubsection}{General}{7}
 \contentsline {subsubsection}{Mails}{7}
 \contentsline {subsubsection}{Tickets}{7}
-\contentsline {subsubsection}{Wristbands}{7}
 \contentsline {subsubsection}{PSC}{8}
 \contentsline {subsection}{Een Gebruiker toevoegen}{8}
 \contentsline {subsection}{Een Rol toevoegen}{8}
 \contentsline {subsection}{Een Categorie toevoegen}{8}
 \contentsline {subsection}{Een Voorwerp toevoegen}{8}
-\contentsline {subsection}{Materiaal toevoegen}{10}
-\contentsline {subsection}{Een Zone toevoegen}{10}
-\contentsline {subsection}{Integraties beheren}{10}
-\contentsline {subsection}{Een Veld toevoegen}{10}
-\contentsline {section}{\numberline {2.2}Box Office}{11}
-\contentsline {subsection}{Inchecken}{11}
-\contentsline {subsection}{Quick Add}{11}
-\contentsline {section}{\numberline {2.3}Team Leads}{11}
-\contentsline {subsection}{Een Partner uitnodigen}{11}
-\contentsline {section}{\numberline {2.4}Partners}{13}
-\contentsline {subsection}{Utilities aanvragen.}{13}
+\contentsline {subsection}{Materiaal toevoegen}{11}
+\contentsline {subsection}{Een Zone toevoegen}{12}
+\contentsline {subsection}{Integraties beheren}{12}
+\contentsline {subsection}{Een Veld toevoegen}{12}
+\contentsline {section}{\numberline {2.2}Box Office}{13}
+\contentsline {subsection}{Inchecken}{13}
+\contentsline {subsection}{Quick Add}{13}
+\contentsline {section}{\numberline {2.3}Team Leads}{13}
+\contentsline {subsection}{Een Partner uitnodigen}{13}
+\contentsline {section}{\numberline {2.4}Partners}{15}
+\contentsline {subsection}{Utilities aanvragen.}{15}
